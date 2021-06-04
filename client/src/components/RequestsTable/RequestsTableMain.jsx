@@ -8,10 +8,10 @@ import {
   TableContainer,
   TableHead, TablePagination,
   TableRow, Typography
-}                                     from "@material-ui/core";
-import { RequestsTableRow }           from "./RequestsTableRow";
-import { SortButtons }                from "../common/SortButtons";
-import { FilterBubbles }              from "../common/FilterBubbles";
+}                           from "@material-ui/core";
+import { RequestsTableRow } from "./RequestsTableRow";
+import { SortButtons }      from "../../common/SortButtons";
+import { FilterBubbles }    from "../../common/FilterBubbles";
 
 export const RequestsTableMain = ( { columns, rows } ) => {
   //table state

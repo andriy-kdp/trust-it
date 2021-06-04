@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
-import { MainLayout }                 from "./MainLayout/MainLayout";
-import { RequestsTableMain }          from "./RequestsTable/RequestsTableMain";
+import { MainLayout }                 from "./components/MainLayout/MainLayout";
+import { RequestsTableMain }          from "./components/RequestsTable/RequestsTableMain";
 import { PullRequestsApi }            from "../api/pullRequests";
 
 export const App = () => {
